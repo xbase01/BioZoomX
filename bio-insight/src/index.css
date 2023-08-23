@@ -1,0 +1,150 @@
+/* index.css */
+
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add your custom styles for the landing page */
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hero section styles */
+section#home {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #f4f4f4;
+}
+
+section#home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+section#home p {
+  font-size: 1.2rem;
+}
+
+/* Features section styles */
+section#features {
+  padding: 50px 0;
+  background-color: white;
+  text-align: center;
+}
+
+.feature {
+  padding: 20px;
+}
+
+.feature h2 {
+  font-size: 1.8rem;
+  margin: 10px 0;
+}
+
+.feature p {
+  font-size: 1.1rem;
+}
+
+/* Data visualization preview section styles */
+section#visualization {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #f4f4f4;
+}
+
+/* About section styles */
+section#about {
+  padding: 50px 0;
+  background-color: white;
+  text-align: center;
+}
+
+section#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.team {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.team li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Call-to-action section styles */
+section#cta {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #333;
+  color: white;
+}
+
+section#cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+section#cta p {
+  font-size: 1.2rem;
+}
+
+/* Footer section styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.social {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social li {
+  margin: 0 10px;
+}
+
+.icon-facebook::before {
+  content: "F";
+  font-size: 1.5rem;
+}
+
+.icon-twitter::before {
+  content: "T";
+  font-size: 1.5rem;
+}
+
+/* Add more styles... */
